@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Portfólio</title>
+  <style>
+    /* Estilos CSS aqui */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="caminho/para/foto-de-perfil.jpg" alt="Foto de Perfil">
+      <h1>Seu Nome</h1>
+      <p>Profissão / Descrição breve</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#redes-sociais">Redes Sociais</a></li>
+        <li><a href="#mensagens">Mensagens</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <!-- Aqui você pode adicionar seus projetos pessoais -->
+    <div class="projeto">
+      <h3>Nome do Projeto</h3>
+      <img src="caminho/para/imagem-do-projeto.jpg" alt="Imagem do Projeto">
+      <p>Descrição do Projeto</p>
+    </div>
+  </section>
+
+  <section id="redes-sociais">
+    <h2>Redes Sociais</h2>
+    <ul>
+      <li><a href="link-para-seu-perfil-no-facebook">Facebook</a></li>
+      <li><a href="link-para-seu-perfil-no-instagram">Instagram</a></li>
+      <li><a href="link-para-seu-perfil-no-twitter">Twitter</a></li>
+    </ul>
+  </section>
+
+  <section id="mensagens">
+    <h2>Mensagens</h2>
+    <div class="mensagens-container">
+      <div class="mensagem">
+        <p>Aqui está a primeira mensagem...</p>
+      </div>
+      <div class="mensagem">
+        <p>Aqui está a segunda mensagem...</p>
+      </div>
+      <!-- Adicione mais mensagens conforme necessário -->
+    </div>
+    <div class="navegacao-mensagens">
+      <a href="#" class="seta-anterior">←</a>
+      <a href="#" class="seta-proxima">→</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Seu Nome &copy; 2023</p>
+  </footer>
+</body>
+</html>

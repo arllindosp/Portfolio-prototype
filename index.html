@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Portfólio</title>
+  <style>
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f7f7f7; 
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #c5c8e7; 
+}
+p{
+  color: #ada5bd;
+}
+a {
+  color: #6c5c7d; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bfa6db; 
+}
+
+header {
+  background-color: #272C33; 
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+#projetos {
+  background-color: #fff; 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projeto {
+  margin-bottom: 20px;
+}
+
+.projeto h3 {
+  margin-top: 0;
+}
+
+.projeto img {
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+#redes-sociais {
+  background-color: #f0e2f4; 
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+#redes-sociais ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#redes-sociais li {
+  margin: 0 10px;
+}
+
+#mensagens {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.mensagens-container {
+  position: relative;
+}
+
+.mensagem {
+  display: none;
+}
+
+.mensagem:first-child {
+  display: block;
+}
+
+.navegacao-mensagens {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seta-anterior,
+.seta-proxima {
+  color: #6c5c7d; 
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f0e2f4; 
+  padding: 20px;
+  text-align: center;
+}
+*/
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="eu2.jpeg" alt="Foto de Perfil">
+      <h1>Arlindo Júnior</h1>
+      <p>Estudante de Ciência da Computação/ Espaço destinado ao compartilhamento de projetos</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#redes-sociais">Redes Sociais</a></li>
+        <li><a href="#mensagens">Recado</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projeto">
+      <h3>Portifólio Pessoal CIN</h3>
+      <img src="imagemprojeto.jpeg">
+      <p1>O projeto de protótipo do portifólio consiste na aplicação dos conceitos introdutorios de HTML
+        e CSS, bem como dos artifícios que tais recursos colocam a dispor dos desenvolvedores
+        com o intuito de impulsionar a assimilação e o aprendizado de tais conceitos.
+      </p1>
+    </div>
+  </section>
+
+  <section id="redes-sociais">
+    <h2>Redes Sociais</h2>
+    <ul>
+      <li><a href="https://github.com/arllindosp">Github</a></li>
+      <li><a href="https://instagram.com/arllindojunior_?igshid=MmIzYWVlNDQ5Yg==">Instagram</a></li>
+      <li><a href="https://twitter.com/arllindojunior2?s=21">Twitter</a></li>
+    </ul>
+  </section>
+
+  <section id="mensagens">
+    <h2>Mensagens</h2>
+    <div class="mensagens-container">
+      <div class="mensagem">
+        <p2>Tenha coragem e seja gentil</p2>
+      </div>
+      <div class="mensagem">
+        <p2>Continue indo atrás dos seus sonhos!</p2>
+      </div>
+    </div>
+    <div class="navegacao-mensagens">
+      <a href="#" class="seta-anterior">←</a>
+      <a href="#" class="seta-proxima">→</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Arlindo Júnior &copy; 2023</p>
+  </footer>
+</body>
+</html>
